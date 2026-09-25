@@ -1,11 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu cartão de apresentação</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <main class="cartao">
+    <p class="etiqueta">Olá, eu sou</p>
+
+    <h1 id="nome">Pedro Emanuel</h1>
+
+    <p id="descricao">
+      Escreva aqui uma breve apresentação sobre você.
+    </p>
+
+    <h2>Meus interesses</h2>
+
+    <ul id="interesses">
+      <li>Programação</li>
+      <li>Música</li>
+      <li>Leitura</li>
+    </ul>
+
+    <button id="botaoMensagem" type="button">
+      Mostrar uma mensagem
+    </button>
+
+    <button id="botaoOcultar" class="botao-secundario" type="button">
+      Ocultar mensagem
+    </button>
+
+    <p id="mensagem" aria-live="polite"></p>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
